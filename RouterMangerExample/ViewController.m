@@ -48,7 +48,7 @@
 - (IBAction)commonPushBtnClick:(UIButton *)sender
 {
     Target_commons *ds = [[Target_commons alloc] init];
-    UIViewController *VC = [ds push_CommonViewController:@{}];
+    UIViewController *VC = [ds push_CommonViewController:@"CommonViewController" params:@{}];
     
     [self.navigationController pushViewController:VC animated:YES];
 }

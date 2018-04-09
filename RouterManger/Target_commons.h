@@ -13,6 +13,6 @@ extern NSString * const kCTMediatorTargetCommons;
 
 @interface Target_commons : NSObject
 // 自定义push方法
-- (UIViewController *)push_CommonViewController:(NSDictionary *)params;
+- (UIViewController *)push_CommonViewController:(NSString *)stringVCName params:(NSDictionary *)params;
 
 @end
