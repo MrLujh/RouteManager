@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  RouterMangerExample
+//
+//  Created by lujh on 2018/4/9.
+//  Copyright © 2018年 lujh. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIViewController+routerManager.h"
+
+#endif /* PrefixHeader_pch */
