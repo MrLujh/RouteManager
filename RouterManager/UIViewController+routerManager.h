@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "RouterManager+extension.h"
-#import "MJExtension.h"
+
 
 @interface UIViewController (routerManager)
 

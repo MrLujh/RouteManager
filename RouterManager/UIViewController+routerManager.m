@@ -7,6 +7,7 @@
 //
 
 #import "UIViewController+routerManager.h"
+#import "MJExtension.h"
 
 @implementation UIViewController (routerManager)
 
