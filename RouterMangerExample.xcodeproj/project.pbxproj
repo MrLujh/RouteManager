@@ -15,11 +15,11 @@
 		2E9B5288207AF89D00CA789A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9B5287207AF89D00CA789A /* main.m */; };
 		2E9B52B7207AFA3F00CA789A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9B52B5207AFA3F00CA789A /* TestViewController.m */; };
 		2E9B52B8207AFA3F00CA789A /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9B52B6207AFA3F00CA789A /* TestViewController.xib */; };
-		2E9B52CA207B082000CA789A /* RouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9B52C9207B082000CA789A /* RouterManager.m */; };
-		2E9B52CD207B092400CA789A /* RouterManager+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9B52CC207B092400CA789A /* RouterManager+extension.m */; };
-		2E9B52D0207B0A6F00CA789A /* Target_commons.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9B52CF207B0A6F00CA789A /* Target_commons.m */; };
 		2E9B52D3207B11F500CA789A /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9B52D2207B11F500CA789A /* CommonViewController.m */; };
-		2E9B52DC207B3E6200CA789A /* UIViewController+routerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9B52DB207B3E6200CA789A /* UIViewController+routerManager.m */; };
+		2E9B52E7207B5C1800CA789A /* RouterManager+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9B52E0207B5C1800CA789A /* RouterManager+extension.m */; };
+		2E9B52E8207B5C1800CA789A /* UIViewController+routerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9B52E2207B5C1800CA789A /* UIViewController+routerManager.m */; };
+		2E9B52E9207B5C1800CA789A /* RouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9B52E3207B5C1800CA789A /* RouterManager.m */; };
+		2E9B52EA207B5C1800CA789A /* Target_commons.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9B52E5207B5C1800CA789A /* Target_commons.m */; };
 		8D03F3B159D48DBA4355354F /* libPods-RouterMangerExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A64AFCA787CAE12BFA0859E /* libPods-RouterMangerExample.a */; };
 /* End PBXBuildFile section */
 
@@ -38,17 +38,17 @@
 		2E9B52B4207AFA3F00CA789A /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		2E9B52B5207AFA3F00CA789A /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		2E9B52B6207AFA3F00CA789A /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
-		2E9B52C8207B082000CA789A /* RouterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterManager.h; sourceTree = "<group>"; };
-		2E9B52C9207B082000CA789A /* RouterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouterManager.m; sourceTree = "<group>"; };
-		2E9B52CB207B092400CA789A /* RouterManager+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RouterManager+extension.h"; sourceTree = "<group>"; };
-		2E9B52CC207B092400CA789A /* RouterManager+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RouterManager+extension.m"; sourceTree = "<group>"; };
-		2E9B52CE207B0A6F00CA789A /* Target_commons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_commons.h; sourceTree = "<group>"; };
-		2E9B52CF207B0A6F00CA789A /* Target_commons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_commons.m; sourceTree = "<group>"; };
 		2E9B52D1207B11F500CA789A /* CommonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
 		2E9B52D2207B11F500CA789A /* CommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
-		2E9B52DA207B3E6200CA789A /* UIViewController+routerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+routerManager.h"; sourceTree = "<group>"; };
-		2E9B52DB207B3E6200CA789A /* UIViewController+routerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+routerManager.m"; sourceTree = "<group>"; };
 		2E9B52DD207B467F00CA789A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2E9B52DF207B5C1800CA789A /* RouterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterManager.h; sourceTree = "<group>"; };
+		2E9B52E0207B5C1800CA789A /* RouterManager+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RouterManager+extension.m"; sourceTree = "<group>"; };
+		2E9B52E1207B5C1800CA789A /* Target_commons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_commons.h; sourceTree = "<group>"; };
+		2E9B52E2207B5C1800CA789A /* UIViewController+routerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+routerManager.m"; sourceTree = "<group>"; };
+		2E9B52E3207B5C1800CA789A /* RouterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterManager.m; sourceTree = "<group>"; };
+		2E9B52E4207B5C1800CA789A /* RouterManager+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RouterManager+extension.h"; sourceTree = "<group>"; };
+		2E9B52E5207B5C1800CA789A /* Target_commons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_commons.m; sourceTree = "<group>"; };
+		2E9B52E6207B5C1800CA789A /* UIViewController+routerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+routerManager.h"; sourceTree = "<group>"; };
 		8162113DD48B38F13BDA11E1 /* Pods-RouterMangerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouterMangerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RouterMangerExample/Pods-RouterMangerExample.release.xcconfig"; sourceTree = "<group>"; };
 		8A64AFCA787CAE12BFA0859E /* libPods-RouterMangerExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RouterMangerExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,7 +94,7 @@
 		2E9B5277207AF89C00CA789A /* RouterMangerExample */ = {
 			isa = PBXGroup;
 			children = (
-				2E9B52AA207AF99300CA789A /* RouterManger */,
+				2E9B52DE207B5C1800CA789A /* RouterManager */,
 				2E9B5278207AF89C00CA789A /* AppDelegate.h */,
 				2E9B5279207AF89C00CA789A /* AppDelegate.m */,
 				2E9B527B207AF89C00CA789A /* ViewController.h */,
@@ -114,19 +114,19 @@
 			path = RouterMangerExample;
 			sourceTree = "<group>";
 		};
-		2E9B52AA207AF99300CA789A /* RouterManger */ = {
+		2E9B52DE207B5C1800CA789A /* RouterManager */ = {
 			isa = PBXGroup;
 			children = (
-				2E9B52CE207B0A6F00CA789A /* Target_commons.h */,
-				2E9B52CF207B0A6F00CA789A /* Target_commons.m */,
-				2E9B52C8207B082000CA789A /* RouterManager.h */,
-				2E9B52C9207B082000CA789A /* RouterManager.m */,
-				2E9B52CB207B092400CA789A /* RouterManager+extension.h */,
-				2E9B52CC207B092400CA789A /* RouterManager+extension.m */,
-				2E9B52DA207B3E6200CA789A /* UIViewController+routerManager.h */,
-				2E9B52DB207B3E6200CA789A /* UIViewController+routerManager.m */,
+				2E9B52E1207B5C1800CA789A /* Target_commons.h */,
+				2E9B52E5207B5C1800CA789A /* Target_commons.m */,
+				2E9B52DF207B5C1800CA789A /* RouterManager.h */,
+				2E9B52E3207B5C1800CA789A /* RouterManager.m */,
+				2E9B52E0207B5C1800CA789A /* RouterManager+extension.m */,
+				2E9B52E4207B5C1800CA789A /* RouterManager+extension.h */,
+				2E9B52E6207B5C1800CA789A /* UIViewController+routerManager.h */,
+				2E9B52E2207B5C1800CA789A /* UIViewController+routerManager.m */,
 			);
-			path = RouterManger;
+			path = RouterManager;
 			sourceTree = SOURCE_ROOT;
 		};
 		83234FA156FD4669E07C7226 /* Pods */ = {
@@ -263,13 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E9B52CA207B082000CA789A /* RouterManager.m in Sources */,
 				2E9B527D207AF89C00CA789A /* ViewController.m in Sources */,
-				2E9B52DC207B3E6200CA789A /* UIViewController+routerManager.m in Sources */,
+				2E9B52E7207B5C1800CA789A /* RouterManager+extension.m in Sources */,
+				2E9B52E8207B5C1800CA789A /* UIViewController+routerManager.m in Sources */,
+				2E9B52EA207B5C1800CA789A /* Target_commons.m in Sources */,
 				2E9B52B7207AFA3F00CA789A /* TestViewController.m in Sources */,
+				2E9B52E9207B5C1800CA789A /* RouterManager.m in Sources */,
 				2E9B5288207AF89D00CA789A /* main.m in Sources */,
-				2E9B52D0207B0A6F00CA789A /* Target_commons.m in Sources */,
-				2E9B52CD207B092400CA789A /* RouterManager+extension.m in Sources */,
 				2E9B527A207AF89C00CA789A /* AppDelegate.m in Sources */,
 				2E9B52D3207B11F500CA789A /* CommonViewController.m in Sources */,
 			);
