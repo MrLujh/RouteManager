@@ -56,6 +56,10 @@
     * 工程耦合，每个模块有自己的生命周期和运行时，每个模块在生产环境里又需要依赖主工程的运行时
     
     * 放弃源码依赖，提速集成编译
+    
+## 应用架构谈 组件化方案
+
+* https://casatwy.com/iOS-Modulization.html
 
 ## My weixin
 ![(author)](https://github.com/daniulaolu/PushParameterWithDict-/blob/master/xiaolu.jpg)
