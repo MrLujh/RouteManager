@@ -56,5 +56,11 @@
     * 工程耦合，每个模块有自己的生命周期和运行时，每个模块在生产环境里又需要依赖主工程的运行时
     
     * 放弃源码依赖，提速集成编译
-   
 
+## My weixin
+![(author)](https://github.com/daniulaolu/PushParameterWithDict-/blob/master/xiaolu.jpg)
+
+![Mou icon](https://github.com/MrLujh/Fastlane--Packaging/blob/master/111.gif)
+![(author)](https://github.com/daniulaolu/PushParameterWithDict-/blob/master/xiaolu.jpg)
+
+![Mou icon](https://github.com/MrLujh/Fastlane--Packaging/blob/master/111.gif)
