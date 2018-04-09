@@ -32,3 +32,10 @@
 * 界面耦合，就是用户操作流程里，从首页-到搜索-到详情-再进店，这些界面的跳转是硬编码的
 * 依赖耦合，顾名思义，两个模块之间的有依赖，就是耦合
 * 工程耦合，每个模块有自己的生命周期和运行时，每个模块在生产环境里又需要依赖主工程的运行时
+
+## Contents
+* Getting Started
+    * [Features【Support what kinds of controls to refresh】](#Support_what_kinds_of_controls_to_refresh)
+    * [Installation【How to use MJRefresh】](#How_to_use_MJRefresh)
+    * [Who's using【More than hundreds of Apps are using MJRefresh】](#More_than_hundreds_of_Apps_are_using_MJRefresh)
+    * [Classes【The Class Structure Chart of MJRefresh】](#The_Class_Structure_Chart_of_MJRefresh)
