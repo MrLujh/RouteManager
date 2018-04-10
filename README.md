@@ -5,7 +5,7 @@
 
 ## 前言
 
-* 很多路由和中间件实现方案，比如JLRoutes、MGJRouter、HHRouter、CTMediator
+* GitHub上比较主流路由和中间件实现方案，比如JLRoutes、MGJRouter、HHRouter、CTMediator
 
     * JLRoutes提供的功能很多很杂，让人难以全面掌握，修改麻烦，甚至需要服务端提供支持，
     
