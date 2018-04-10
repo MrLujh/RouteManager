@@ -123,8 +123,7 @@ UIViewController *doc = [[RouterManager sharedInstance]
 
 * 路由&带参数&回调反向传值
 
-    * 在ViewController和TestViewController中同时声明一个blcok,在demo中有详细说明
-    
+    * 在ViewController和TestViewController中同时声明一个blcok,在demo中有详细说明
 ```objc       
 - (IBAction)popBtnClick:(UIButton *)sender
 {
@@ -153,7 +152,7 @@ UIViewController *doc = [[RouterManager sharedInstance]
                              shouldCacheTarget:NO];
 
 [self.navigationController pushViewController:doc animated:YES];
-```
+```    
     
 ## 应用架构谈 组件化方案
 
