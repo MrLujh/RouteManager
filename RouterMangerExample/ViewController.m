@@ -35,8 +35,8 @@
     UIViewController *doc = [[RouterManager sharedInstance]
                              performAction:@"TestViewController"
                              params:@{
-                                      @"insuranceInfo":@{
-                                              @"userName":@"我是正向传值参数:push",
+                                      @"info":@{
+                                              @"user":@"我是正向传值参数:push",
                                               },
                                       @"backblock":self.backWithDict
                                       }

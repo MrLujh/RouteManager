@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.pushLabel.text = [self.insuranceInfo objectForKey:@"userName"];
+    self.pushLabel.text = [self.info objectForKey:@"user"];
 }
 
 - (IBAction)popBtnClick:(UIButton *)sender

@@ -9,13 +9,16 @@
 #import <UIKit/UIKit.h>
 
 
+/** 反向传参回调blcok */
 typedef void(^BackWithDict)(NSString *str);
 
 @interface TestViewController : UIViewController
 
-@property (strong, nonatomic) NSDictionary *insuranceInfo; //保单信息
+/** 注意：info 要和pushVC中的字典传参里面的key对应 否则目标控制器无法接收 */
+@property (strong, nonatomic) NSDictionary *info; 
 
-/** 注释 */
+/** 反向传参回调blcok */
+/** 注意：backblock 要和pushVC中的字典传参里面的key对应 否则目标控制器无法接收 */
 @property (nonatomic,copy) BackWithDict backblock;
 
 @end

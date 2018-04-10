@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/** 反向传参回调blcok */
 typedef void(^BackWithDict)(NSString *str);
 
 @interface ViewController : UIViewController
 
-/** backWithDict */
+/** 反向传参回调blcok */
 @property (nonatomic,copy) BackWithDict backWithDict;
 
 @end
