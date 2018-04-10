@@ -88,9 +88,8 @@ UIViewController *doc = [[RouterManager sharedInstance]
 
 * 路由&带参数
 
-    * 由ViewController向TestViewController跳转，在ViewController中将通过路由找到TestViewController，
+    * 由ViewController向TestViewController跳转，在ViewController中将通过路由找到TestViewController，
     传入的参数赋值给目标控制器，在TestViewController中只需声明一下入参接收对应的key
-    
 ```objc       
 @implementation UIViewController (routerManager)
 
@@ -120,7 +119,7 @@ UIViewController *doc = [[RouterManager sharedInstance]
                              shouldCacheTarget:NO];
 
 [self.navigationController pushViewController:doc animated:YES];
-```
+```    
 
 * 路由&带参数&回调反向传值
 
