@@ -80,10 +80,23 @@
 ```objc       
 UIViewController *doc = [[RouterManager sharedInstance]
                              performAction:@"TestViewController"
-                             params:@
-                            {} shouldCacheTarget:NO];
+                             params:nil
+                             shouldCacheTarget:NO];
 
-    [self.navigationController pushViewController:doc animated:YES];
+[self.navigationController pushViewController:doc animated:YES];
+```
+
+* 路由&无参数
+
+    * 由ViewController向TestViewController跳转，在ViewController中将通过路由找到TestViewController
+    
+```objc       
+UIViewController *doc = [[RouterManager sharedInstance]
+                             performAction:@"TestViewController"
+                             params:nil
+                             shouldCacheTarget:NO];
+
+[self.navigationController pushViewController:doc animated:YES];
 ```
 
 * 插件化
