@@ -153,10 +153,6 @@ UIViewController *doc = [[RouterManager sharedInstance]
 
 [self.navigationController pushViewController:doc animated:YES];
 ```    
-    
-## 应用架构谈 组件化方案
-
-* https://casatwy.com/iOS-Modulization.html
 
 ## My weixin
 ![(author)](https://github.com/daniulaolu/PushParameterWithDict-/blob/master/xiaolu.jpg)
