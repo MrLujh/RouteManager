@@ -73,7 +73,32 @@
     
 ## 使用    
 
+* 无参数路由
 
+    * 由ViewController向TestViewController跳转，在ViewController中将通过路由找到TestViewController
+    
+```objc       
+UIViewController *doc = [[RouterManager sharedInstance]
+                             performAction:@"TestViewController"
+                             params:@
+                            {} shouldCacheTarget:NO];
+
+    [self.navigationController pushViewController:doc animated:YES];
+```
+    
+* 插件化
+
+    * 进一步发展，业务越来越复杂，团队工作越发细分，人也越来越多，代码量越来越大。简单的使用文件夹来组织模块的方式显得力不从心。多业务跨团队，不同的开发节奏，复杂的依赖关系，导致我们会花掉大量的时间解决编译不过的问题。等待其他模块集成这件事居然成了我们开发效率最大的瓶颈。
+
+* 插件化
+
+    * 代码独立，先从形式上解耦
+    
+    * 独立代码工程化，为独立运行打下基础
+    
+    * 梳理依赖关系，独立工程可编译
+    
+    * 放弃源码依赖，提速集成编译
     
 ## 应用架构谈 组件化方案
 
