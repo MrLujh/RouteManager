@@ -122,15 +122,39 @@ UIViewController *doc = [[RouterManager sharedInstance]
 [self.navigationController pushViewController:doc animated:YES];
 ```
 
-* 插件化
+* 路由&带参数&回调反向传值
 
-    * 代码独立，先从形式上解耦
+    * 在ViewController和TestViewController中同时声明一个blcok,在demo中有详细说明
+    
+```objc       
+- (IBAction)popBtnClick:(UIButton *)sender
+{
     
-    * 独立代码工程化，为独立运行打下基础
+    self.backblock(@"我是返回值参数:pop");
     
-    * 梳理依赖关系，独立工程可编译
+    [self.navigationController popViewControllerAnimated:YES];
+}
+```
+
+```objc       
+__weak typeof(self) weakSelf = self;
+self.backWithDict = ^(NSString *str) {
+        
+        weakSelf.backLabel.text = str;
+};
     
-    * 放弃源码依赖，提速集成编译
+UIViewController *doc = [[RouterManager sharedInstance]
+                             performAction:@"TestViewController"
+                             params:@{
+                                      @"info":@{
+                                              @"user":@"我是正向传值参数:push",
+                                              },
+                                      @"backblock":self.backWithDict
+                                      }
+                             shouldCacheTarget:NO];
+
+[self.navigationController pushViewController:doc animated:YES];
+```
     
 ## 应用架构谈 组件化方案
 
