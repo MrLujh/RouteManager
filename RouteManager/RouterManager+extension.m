@@ -55,7 +55,15 @@ NSMapTable *routeMap = nil;
     
     id action = [self performTarget:kCTMediatorTargetCommons action:actionName params:params shouldCacheTarget:shouldCacheTarget];
     
-    return [action isKindOfClass:class] ? action : nil;
+    if (![action isKindOfClass:class]) {
+        
+        Class class = NSClassFromString(@"ErrorViewController");
+        UIViewController *vc = [[class alloc] init];
+        return vc;
+    }else {
+        
+        return [action isKindOfClass:class] ? action : nil;
+    }
 }
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E2E3F6020C14C200051EC44 /* ErrorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E3F5E20C14C1F0051EC44 /* ErrorViewController.m */; };
 		2E9B527A207AF89C00CA789A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9B5279207AF89C00CA789A /* AppDelegate.m */; };
 		2E9B527D207AF89C00CA789A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9B527C207AF89C00CA789A /* ViewController.m */; };
 		2E9B5280207AF89C00CA789A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9B527E207AF89C00CA789A /* Main.storyboard */; };
@@ -25,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		11375559EC380FEB8F38B41F /* Pods-RouterMangerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouterMangerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RouterMangerExample/Pods-RouterMangerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		2E2E3F5E20C14C1F0051EC44 /* ErrorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorViewController.m; sourceTree = "<group>"; };
+		2E2E3F5F20C14C200051EC44 /* ErrorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorViewController.h; sourceTree = "<group>"; };
 		2E9B5275207AF89C00CA789A /* RouterMangerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterMangerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9B5278207AF89C00CA789A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E9B5279207AF89C00CA789A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				2E9B52ED207B665300CA789A /* RouterManager+extension.m */,
 				2E9B52F3207B665300CA789A /* UIViewController+routerManager.h */,
 				2E9B52EF207B665300CA789A /* UIViewController+routerManager.m */,
+				2E2E3F5F20C14C200051EC44 /* ErrorViewController.h */,
+				2E2E3F5E20C14C1F0051EC44 /* ErrorViewController.m */,
 			);
 			path = RouteManager;
 			sourceTree = SOURCE_ROOT;
@@ -268,6 +273,7 @@
 				2E9B52F5207B665300CA789A /* UIViewController+routerManager.m in Sources */,
 				2E9B52F7207B665300CA789A /* Target_commons.m in Sources */,
 				2E9B52F6207B665300CA789A /* RouterManager.m in Sources */,
+				2E2E3F6020C14C200051EC44 /* ErrorViewController.m in Sources */,
 				2E9B52B7207AFA3F00CA789A /* TestViewController.m in Sources */,
 				2E9B5288207AF89D00CA789A /* main.m in Sources */,
 				2E9B527A207AF89C00CA789A /* AppDelegate.m in Sources */,
