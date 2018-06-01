@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name        = 'RouteManager'
-s.version     = '0.0.1'
+s.version     = '0.0.2'
 s.authors     = { 'daniulaolu' => '287929070@qq.com' }
 s.homepage    = 'https://github.com/MrLujh/RouteManager'
 s.summary     = 'router'
