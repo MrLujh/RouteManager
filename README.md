@@ -162,6 +162,3 @@ UIViewController *doc = [[RouterManager sharedInstance]
 [self.navigationController pushViewController:doc animated:YES];
 ```    
 
-
-![Mou icon](https://github.com/MrLujh/Fastlane--Packaging/blob/master/111.gif)
-
